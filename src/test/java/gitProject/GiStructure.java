@@ -6,7 +6,9 @@ public class GiStructure extends BaseClass {
 	
 	private void launch() {
 		
-		launchBrowser("Chrome")
+	launchBrowser("Chrome");
+	launchurl("https://www.flipkart.com/");
+	implicitywait();
 	
 	}
 
